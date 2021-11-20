@@ -1,0 +1,14 @@
+{
+    "name": "V2Ray",
+    "description": "Deploy V2ray on Heroku.",
+    "keywords": ["V2ray"],
+    "env": {
+        "CONFIG": {
+            "description": "CONFIG",
+            "value": "",
+            "required": true
+        }
+    },
+    "repository": "https://github.com/nsecgo/heroku-v2ray",
+    "stack": "container"
+}
